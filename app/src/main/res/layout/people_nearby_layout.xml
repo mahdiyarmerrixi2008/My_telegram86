@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:background="@color/white"
+        android:layout_margin="14dp"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_baseline_circle_24"
+            android:layout_gravity="center"
+            android:layout_marginBottom="148dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_baseline_fmd_good_24"
+            android:layout_gravity="center"
+            android:layout_marginBottom="148dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Qickly add peope nearly who are viewing this\nsection and discover local group chats."
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="54dp"
+            android:textColor="@color/gray"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="please swich on location acces to enable this\nfeature"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:textColor="@color/gray"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="ALLOW acces"
+            android:layout_gravity="center|bottom"
+            android:backgroundTint="@color/blue"
+            android:layout_marginBottom="34dp"
+            android:layout_height="wrap_content"/>
+
+    </FrameLayout>
+
+
+</LinearLayout>
